@@ -33,11 +33,16 @@ body{
 header,main,footer{ /*voltar a partir da aqui*/
     width: var(--larguramaxima); /*largura maxima do site*/
     min-width: var(--larguraminima); /*largura minima*/
-     margin:auto
+     margin:auto;
+     position: relative;
 }
 
 #sociais{
     background-color: antiquewhite;
+    position: absolute;
+    width: 160px;
+    right: 20px;
+    top: 20px;
 }
 
 .social{
@@ -51,5 +56,21 @@ header,main,footer{ /*voltar a partir da aqui*/
     background-position: 0px 0px; /*define a largura de funfo*/
     background-repeat: no-repeat; 
     background-color: #8c7ee6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+ }
+
+h1{
+    color: var(--corfundo); /*cor da fonte*/
+    font-size: 3em; /*tamanho daq fonte*/
+    font-family: var(--fontedestaque);/*a fsmilia da fonte*/
+ }
+
+ #capa p{
+    color: var(--corfundo);
+    font-family: var(--fontedestaque);
+    font-size: 1em;
  }
