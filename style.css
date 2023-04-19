@@ -38,15 +38,22 @@ header,main,footer{ /*voltar a partir da aqui*/
 }
 
 #sociais{
-    background-color: antiquewhite;
     position: absolute;
-    width: 160px;
+    width: 200px;
     right: 20px;
     top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social:hover{
+    width: 40px;
+    filter: invert(1) opacity(1)
 }
 
 .social{
     width: 35px;
+    filter: invert(1) opacity(0.8);
     
 }
 #capa{
@@ -73,4 +80,39 @@ h1{
     color: var(--corfundo);
     font-family: var(--fontedestaque);
     font-size: 1em;
+ }
+
+ #fotoperfil{
+    width: 200px;
+    position: absolute;
+    left:20px;
+    top: 100px;
+    border-radius:100px;
+ }
+
+ /*MENU DO SITE*/
+ nav{
+    display: flex;
+    justify-content: center;
+ }
+
+ #menu{
+    
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ #menu a{
+     text-decoration: none;
+     background-color: var(--corprimaria);
+     color: var(--corfundo);
+     padding: 10px;
+     border-radius: 9px;
+ }
+
+ #menu a:hover{
+    background-color: var(--cordestaque);
+    color: var(--cortexto);
  }
