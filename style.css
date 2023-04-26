@@ -116,3 +116,7 @@ h1{
     background-color: var(--corprimaria);
     color: var(--cordestaque);
  }
+
+ .atualizar{
+    width: 100%;
+ }
