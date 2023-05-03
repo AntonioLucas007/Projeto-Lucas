@@ -37,6 +37,13 @@ header,main,footer{ /*voltar a partir da aqui*/
      position: relative;
 }
 
+main{
+   display: flex;
+   flex-direction: column;
+   background-color: aqua;
+   flex-wrap: wrap;
+}
+
 #sociais{
     position: absolute;
     width: 200px;
@@ -118,5 +125,25 @@ h1{
  }
 
  .atualizar{
-    width: 100%;
+    width: 30%;
+ }
+
+ .editor2{
+   width: 30%;
+ }
+
+ .editor3{
+   width: 30%;
+ }
+
+ .classe1{
+   display: flex;
+   width: 100%;
+   
+   background-color: cadetblue;
+ }
+
+ .classe1 img{
+   width: 40%;
+
  }
